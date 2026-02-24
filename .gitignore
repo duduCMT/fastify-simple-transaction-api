@@ -1,0 +1,9 @@
+node_modules
+.env
+.env.*
+!.env.exemple
+dist
+coverage
+drizzle-kit
+drizzle
+tmp/app.db
