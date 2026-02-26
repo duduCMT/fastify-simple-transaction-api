@@ -6,4 +6,4 @@ dist
 coverage
 drizzle-kit
 drizzle
-tmp/app.db
+db/app.db
