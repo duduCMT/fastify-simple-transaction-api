@@ -17,10 +17,19 @@ Repository for learning and practicing NodeJS from the Rockeatseat Course.
 - Fastify (API)
 - SQLite (Database)
 - Knex (SQL Query Builder)
+- Vitest (Unit Test Framework)
 
 ## Setup
 
-Install Dependencies With
+If you are using nvm, run:
+
+```bash
+nvm use
+```
+
+Else, change your Node Version to `18.13.0`.
+
+Install Dependencies With:
 
 ```bash
 npm install
