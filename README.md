@@ -1,6 +1,8 @@
-# Fastify Node API
+# Fastify Simple Transaction API
 
 ## Description
+
+This project is a RESTful financial transactions API built with Fastify that allows users to create credit and debit transactions, track their account balance, and securely access their own transaction history. Instead of using a conventional authentication system, the application follows a no-auth first approach, where users are identified and their data is related across requests through cookies. This design focuses on learning and demonstrating how cookie-based session dynamics work, ensuring that each user can only view and manage the transactions they have created without requiring a traditional login process.
 
 Repository for learning and practicing NodeJS from the Rockeatseat Course.
 
