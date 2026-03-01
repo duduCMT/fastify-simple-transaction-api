@@ -1,7 +1,7 @@
 node_modules
 .env
 .env.*
-!.env.exemple
+!.env.example
 dist
 coverage
 drizzle-kit
