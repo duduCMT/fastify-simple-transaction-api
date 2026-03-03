@@ -1,8 +1,11 @@
 {
-  "name": "fastify-node-api",
+  "name": "fastify-simple-transaction-api",
   "version": "1.0.0",
   "description": "## Description",
   "main": "index.js",
+  "engines": {
+    "node": "18.13.0"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
