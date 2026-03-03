@@ -13,7 +13,7 @@ Repository for learning and practicing NodeJS from the Rockeatseat Course.
 ## Technologies
 
 - NodeJS
-- Typescript
+- Typescript (tsx and tsup)
 - Fastify (API)
 - SQLite (Database)
 - Knex (SQL Query Builder)
