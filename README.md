@@ -3,14 +3,15 @@
 [![](https://img.shields.io/badge/Project-NodeJS-green)](#)
 [![](https://img.shields.io/badge/Framework-Fastify-black)](#)
 [![](https://img.shields.io/badge/Category-Project%20to%20Study-red)](#)
+[![](https://img.shields.io/badge/Production-On%20Render-blue)](https://fastify-simple-transaction-api.onrender.com/status)
 
-## Description
+## 📝 Description
 
 This project is a RESTful financial transactions API built with Fastify that allows users to create credit and debit transactions, track their account balance, and securely access their own transaction history. Instead of using a conventional authentication system, the application follows a no-auth first approach, where users are identified and their data is related across requests through cookies. This design focuses on learning and demonstrating how cookie-based session dynamics work, ensuring that each user can only view and manage the transactions they have created without requiring a traditional login process.
 
 Repository for learning and practicing NodeJS from the Rockeatseat Course.
 
-## Technologies
+## ⚡ Technologies
 
 - NodeJS
 - Typescript (tsx and tsup)
@@ -19,7 +20,7 @@ Repository for learning and practicing NodeJS from the Rockeatseat Course.
 - Knex (SQL Query Builder)
 - Vitest (Unit Test Framework)
 
-## Setup
+## 🚩 Setup
 
 If you are using nvm, run:
 
@@ -82,3 +83,13 @@ To undo migrations, use:
 ```bash
 npm run knex -- migrate:rollback
 ```
+
+## 🔎 API Documentation
+
+See the complete API documentation in this file:
+
+- [API Documentation](./docs/api.md)
+
+If you use Insomnia, you can import the endpoints with examples
+
+- [Insomnia_Fastify_Simple_Transaction_API](./docs/Insomnia_Fastify_Simple_Transaction_API.json)
