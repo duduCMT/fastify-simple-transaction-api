@@ -11,4 +11,8 @@ app.register(cookie);
 
 app.register(transactionsRoutes, { prefix: "/transactions" });
 
+app.get("/status", (request, reply) => {
+  return reply.status(200).send("✅ Everything is in order");
+});
+
 export { app };
